@@ -22,6 +22,10 @@ a{
   display: inline-block;
 }
 
+main{
+  padding: 30px 0;
+}
+
 /* PALETTE COLORI */
 :root {
   --blue:#0084FD;
@@ -51,10 +55,74 @@ a{
   display: none;
 }
 
+.block-header-item{
+  padding: 20px 0;
+}
+
+/* HERO */
+.hero-flex-div{
+  display: flex;
+  background-color: var(--light-blue);
+  border-radius: 15px;
+}
+
+.col-img-phone{
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-div-title{
+  padding: 20px 15px;
+}
+
+.col8 > h3{
+  color: var(--blue);
+  font-size: 20px;
+}
+
+.col8 > p{
+  line-height: 1.8em;
+  color: rgb(91, 110, 127);
+}
+
+.hero-div-col4{
+  text-align: center;
+}
+
+.hero-div-col4 > h3{
+  color: var(--blue);
+  font-size: 25px;
+  padding: 10px 0px;
+}
+
+.hero-div-col4 > i {
+  color: var(--blue);
+  font-size: 75px;
+  padding: 20px 0px;
+}
+
+.hero-div-col4 > p {
+  padding: 5px 10px;
+  line-height: 1.8em;
+  color: rgb(91, 110, 127);
+}
+
+
 /*UTILITY CLASSES*/
+.hero-flex-div{
+  min-height: 331px;
+}
 .justify-between{
   justify-content: space-between;
   align-items: center;
+}
+
+.pad-between-col{
+  padding: 10px 10px;
+}
+
+.row-reverse{
+  flex-direction: column;
 }
 /* COMPONENT CLASSES*/
 .btn{
@@ -64,6 +132,13 @@ a{
   background-color: white;
   border-radius: 20px;
   padding: 0 18px;
+}
+
+.btn-hero{
+  background-color: var(--blue);
+  color: white;
+  text-align: center;
+  padding: 0 40px;
 }
 /*LAYOUT*/
 .container {
@@ -112,6 +187,10 @@ a{
   .icon-menu{
     display: contents;
   }
+
+  .block-header-item{
+    padding: 20px 10px;
+  }
 }
 
 /* DEBUG */
@@ -128,5 +207,10 @@ a{
 }
 .debug [class^="col"] {
   border: 1px solid red;
+  padding: 10px;
+}
+
+.debug .hero-flex-div{
+  border: 1px solid purple;
   padding: 10px;
 }
