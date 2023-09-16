@@ -224,6 +224,18 @@ main{
   }
 }
 
+@media (max-width: 480px){
+  .col-8{
+    flex-basis: 100%;
+  }
+  .col-img-phone > img{
+    width: 100%;
+  }
+  .col-4{
+    flex-basis: 100%;
+  }
+}
+
 /* DEBUG */
 .debug .container,
 .debug .container-medium,
