@@ -291,6 +291,23 @@ main{
   .col-4 > .clean-code{
     height: 100%;
   }
+
+  /*SECTION BG PURPLE*/
+  .flex-col6-bgpurple{
+    flex-basis: 100%;
+  }
+
+  .cont-second-col6{
+    flex-basis: 100%;
+  }
+
+  .cont-paragraph{
+    padding: 0 20px;
+  }
+
+  .cont-paragraph > h3{
+    font-size: 50px;
+  }
 }
 
 /*SECTION HERO*/
@@ -309,6 +326,11 @@ main{
   }
   .col-4{
     flex-basis: 100%;
+  }
+
+  /*SECTION BG PURPLE*/
+  .cont-paragraph > h3 {
+    font-size: 35px;
   }
 }
 
