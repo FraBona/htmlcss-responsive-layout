@@ -360,7 +360,8 @@ main{
   background-color: var(--purple);
   color: white;
   text-align: center;
-  padding: 0 50px;
+  padding: 0 35px;
+  white-space: nowrap;
 }
 /*LAYOUT*/
 .container {
@@ -406,6 +407,8 @@ main{
 
 
 /* RESPONSIVE */
+
+
 
 @media (max-width: 780px){
   /*SECTION HEADER*/
@@ -463,6 +466,33 @@ main{
   /*SECTION BENEFIT*/
   .benefit__col4{
     flex-basis: 50%;
+  }
+
+  /*SECTION ABOUT US*/
+  .quot-icon{
+    font-size: 60px;
+  }
+
+  .btn-benefit{
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 610px){
+  .cont-about-us{
+    flex-basis: 100%;
+  }
+
+  .cont-col4-about-us{
+    flex-basis: 100%;
+  }
+  .about-us__image{
+    width: 210px;
+    height: 200px;
+  }
+  .quot-icon{
+    bottom: 0px;
+    left: 160px;
   }
 }
 
