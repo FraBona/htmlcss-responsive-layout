@@ -22,10 +22,6 @@ a{
   display: inline-block;
 }
 
-main{
-  padding: 30px 0;
-}
-
 /* PALETTE COLORI */
 :root {
   --blue:#0084FD;
@@ -60,7 +56,9 @@ main{
 }
 
 /* HERO */
+
 .hero{
+  margin-top: 30px;
   margin-bottom: 100px;
 }
 .hero-flex-div{
@@ -356,13 +354,25 @@ main{
   color: white;
 }
 
-
 .cont-btn{
   margin: 0 auto;
 }
 
 .icon-circle{
   font-size: 10px;
+}
+
+/*SECTION FOOTER*/
+footer{
+  padding: 30px 0px;
+  background-color: var(--dark-grey);
+  width: 100%;
+}
+
+.cont-footer > p{
+  text-align: center;
+  padding: 20px 0px;
+  color: white;
 }
 
 
@@ -529,6 +539,12 @@ main{
   .btn-benefit{
     padding: 0 10px;
   }
+
+  /*SECTION FOOTER*/
+  .cont-footer > p{
+    padding: 20px 50px;
+  }
+  
 }
 
 @media (max-width: 610px){
