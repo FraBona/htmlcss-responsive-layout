@@ -325,12 +325,56 @@ main{
   padding: 20px 0px;
 }
 
+/*SECTION GET STARTED*/
+
+.get-started{
+  background-color: var(--purple);
+}
+
+.cont-get-started > *{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.cont-get-started > .word-opacity{
+  margin: 0 auto;
+  color: white;
+  opacity: 0.5;
+}
+
+.cont-get-started > h3{
+  font-size: 50px;
+  color: white;
+}
+
+.cont-get-started > h2{
+  font-size: 100px;
+  color: var(--yellow);
+}
+
+.cont-get-started > p{
+  color: white;
+}
+
+
+.cont-btn{
+  margin: 0 auto;
+}
+
+.icon-circle{
+  font-size: 10px;
+}
+
 
 
 /*UTILITY CLASSES*/
 .row > [class^='col']{
   padding: 10px 10px;
 }
+.justify-center{
+  align-items: center;
+}
+
 .justify-between{
   justify-content: space-between;
   align-items: center;
@@ -362,6 +406,15 @@ main{
   text-align: center;
   padding: 0 35px;
   white-space: nowrap;
+}
+
+.btn-getstarted{
+  background-color: var(--light);
+  color: var(--purple);
+  text-align: center;
+  padding: 10px 60px;
+  white-space: nowrap;
+  border-radius: 999px;
 }
 /*LAYOUT*/
 .container {
@@ -494,6 +547,10 @@ main{
     bottom: 0px;
     left: 160px;
   }
+
+  .cont-about-us-image{
+    padding: 0 55px;
+  }
 }
 
 /*SECTION HERO*/
@@ -527,6 +584,18 @@ main{
   .cont-testimonials-name > p, .cont-testimonials-name > h3{
     text-align: center;
     padding: 0 10px;
+  }
+
+  /*SECTION GET STARTED*/
+  .cont-get-started{
+    padding: 0 45px;
+  }
+
+  .cont-get-started > h3{
+    font-size: 30px;
+  }
+  .cont-get-started > h2{
+    font-size: 70px;
   }
 }
 
