@@ -278,7 +278,51 @@ main{
 
 .bg-white > p{
   color: grey;
-  line-height: 1.3em;
+  line-height: 1.5em;
+}
+
+/*SECTION ABOUT US*/
+.about-us{
+  margin: 50px 0px;
+}
+
+.cont-about-us > *{
+  padding: 20px 0px;
+  margin: 0 50px;
+}
+
+.cont-about-us > h2 {
+  font-size: 80px;
+  color: var(--purple);
+}
+
+.cont-about-us > p{
+  color: black;
+  line-height: 2em;
+}
+
+.cont-about-us-image{
+  position: relative;
+}
+
+.about-us__image > img{ 
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+.quot-icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 100px;
+  color: var(--purple);
+}
+
+.cont-about-us-image > h3{
+  font-size: 35px;
+  color: var(--purple);
+  padding: 20px 0px;
 }
 
 
