@@ -56,10 +56,13 @@ main{
 }
 
 .block-header-item{
-  padding: 20px 0;
+  padding: 20px 20px;
 }
 
 /* HERO */
+.hero{
+  margin-bottom: 100px;
+}
 .hero-flex-div{
   display: flex;
   background-color: var(--light-blue);
@@ -182,14 +185,87 @@ main{
   padding: 20px;
 }
 
-/*UTILITY CLASSES*/
-.justify-between{
-  justify-content: space-between;
+/*SECTION TESTIMONIALS*/
+.testimonials{
+  margin: 50px 0px;
+}
+
+.cont-title-paragraph__item{
+  text-align: center;
+  padding: 10px;
+}
+
+.cont-title-paragraph > h2{
+  font-size: 40px;
+  color: var(--purple);
+}
+.cont-title-paragraph > p{
+  line-height: 1.5em;
+}
+
+.col12-bg-purple{
+  background-color: var(--purple);
+  border-radius: 20px;
+  display: flex;
+  margin: 20px 0px;
+}
+
+.cont-testimonials-image{
+  margin: 20px;
+}
+
+.cont-testimonials-image > img{ 
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.col8-testimonials{
+  height: 100%;
+}
+
+.justify-center{
+  justify-content: center;
   align-items: center;
 }
 
-.pad-between-col{
+.col-8 > div > p {
+  color: white;
+}
+
+.col-8 > div > p > i{
+  font-size: 20px;
+}
+
+.col-8 > div > h3{
+  color: white;
+  padding: 20px 0px;
+}
+
+/*SECTION BENEFIT*/
+
+.benefit{
+  background-color: var(--purple);
+}
+
+.cont-benefit-title > h2{
+  text-align: center;
+  color: var(--light);
+  font-size: 40px;
+}
+
+.bg-white{
+  background-color: var(--light);
+}
+
+
+/*UTILITY CLASSES*/
+.row > [class^='col']{
   padding: 10px 10px;
+}
+.justify-between{
+  justify-content: space-between;
+  align-items: center;
 }
 
 .row-reverse{
@@ -331,6 +407,16 @@ main{
   /*SECTION BG PURPLE*/
   .cont-paragraph > h3 {
     font-size: 35px;
+  }
+
+  /*SECTION TESTIMONIALS*/
+  .col12-bg-purple{
+    flex-wrap: wrap;
+  }
+  
+  .cont-testimonials-name > p, .cont-testimonials-name > h3{
+    text-align: center;
+    padding: 0 10px;
   }
 }
 
