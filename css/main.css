@@ -246,17 +246,41 @@ main{
 
 .benefit{
   background-color: var(--purple);
+  padding: 40px 20px;
 }
 
 .cont-benefit-title > h2{
   text-align: center;
   color: var(--light);
   font-size: 40px;
+  padding: 40px 0;
 }
 
 .bg-white{
   background-color: var(--light);
+  border-radius: 20px;
 }
+
+.bg-white > * {
+  padding: 15px 10px;
+  margin: 10px 10px;
+}
+
+.bg-white > h2 {
+  font-size: 80px;
+  color: var(--purple);
+}
+
+.bg-white > h4{
+  font-size: 20px;
+  color: var(--purple);
+}
+
+.bg-white > p{
+  color: grey;
+  line-height: 1.3em;
+}
+
 
 
 /*UTILITY CLASSES*/
@@ -286,6 +310,13 @@ main{
   color: white;
   text-align: center;
   padding: 0 40px;
+}
+
+.btn-benefit{
+  background-color: var(--purple);
+  color: white;
+  text-align: center;
+  padding: 0 50px;
 }
 /*LAYOUT*/
 .container {
@@ -383,6 +414,11 @@ main{
 
   .cont-paragraph > h3{
     font-size: 50px;
+  }
+
+  /*SECTION BENEFIT*/
+  .benefit__col4{
+    flex-basis: 50%;
   }
 }
 
